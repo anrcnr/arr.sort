@@ -1,8 +1,8 @@
 	let sort = (x)=>{
 		let entries = Object.entries(x)
-		let i = entries.length - 1
+		let i = 0
 		let arr = []
-		while(i-->0) {
+		while(i<entries.length - 1) {
 			if(entries[i]>val[0]) {
 				arr.unshift(entries[i])
 				continue
