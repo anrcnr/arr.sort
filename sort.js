@@ -11,6 +11,7 @@
 			{
 				arr.push(entries[i])
 			}
+			i++
 		}
 		return arr
 	}
